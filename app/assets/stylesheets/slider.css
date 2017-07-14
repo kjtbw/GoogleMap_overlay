@@ -1,0 +1,14 @@
+#ex1Slider {  
+    background: #BABABA;
+    height: 50px;
+    width: 1740px;
+}
+
+#ex2Slider {  
+    background: #BABABA;
+    width: 200px;
+}
+
+#ex1Slider .slider-handle {
+    height: 50px;
+}

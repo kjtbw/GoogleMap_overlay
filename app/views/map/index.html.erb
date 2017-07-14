@@ -1,0 +1,15 @@
+<h1>Heat Map</h1>
+<div class="map">
+  <div id="map"></div>
+  <div class="options">
+        <input id="point_check" type="checkbox" name="options" value="point" checked="checked">表示　　　　　　　　　　　</br>
+	<div id="point_legend"></div>
+	　<input id="ex2" data-slider-id='ex2Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="0" data-slider-tooltip="hide" />
+	<span id="ex2CurrentSlixbderValLabel"></br>Probability: <span id="ex2SliderVal">0</span></span>% or more</br>
+  </div>
+</div>
+<div>
+  <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="23" data-slider-step="1" data-slider-value="0" />
+  <span id="ex1CurrentSlixbderValLabel">Time: <span id="ex1SliderVal">0</span></span>:00:00
+</div>
+<%= javascript_include_tag 'GoogleMap' %>
